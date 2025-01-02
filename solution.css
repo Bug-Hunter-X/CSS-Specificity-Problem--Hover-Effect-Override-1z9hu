@@ -1,0 +1,15 @@
+The solution involves using a more specific hover selector to override the id selector, ensuring the intended hover effect is applied. We can change the class selector to be more specific. Another approach would be to apply the hover style directly to the id.
+```css
+div#myDiv {
+  background-color: red;
+}
+
+#myDiv:hover {
+  background-color: blue;
+}
+/*Alternative solution*/
+
+div.myDiv:hover {
+  background-color: blue;
+}
+```
