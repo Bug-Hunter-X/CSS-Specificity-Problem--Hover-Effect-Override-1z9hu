@@ -1,0 +1,10 @@
+The following CSS code snippet causes unexpected behavior in certain browsers. The `:hover` pseudo-class is applied to the `div` element, but the color change does not occur as expected.  This is due to the specificity of the CSS selectors. The id selector is more specific than the class selector, causing the id selector to override the hover style. 
+```css
+div#myDiv {
+  background-color: red;
+}
+
+.myDiv:hover {
+  background-color: blue;
+}
+```
