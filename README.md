@@ -1,0 +1,1 @@
+This repository demonstrates a common CSS specificity issue that can lead to unexpected behavior. The bug is in `bug.css`, and the solution is provided in `solution.css`.  The problem involves a hover effect that is overridden by a more specific selector.  The solution adjusts the selector specificity to resolve the issue.
